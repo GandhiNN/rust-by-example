@@ -1,0 +1,4 @@
+[workspace]
+nested = true
+members = ["crates/*"]
+resolver = "2"

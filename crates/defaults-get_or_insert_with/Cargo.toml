@@ -1,0 +1,6 @@
+[package]
+name = "defaults-get_or_insert_with"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

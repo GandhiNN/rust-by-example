@@ -1,6 +1,6 @@
 [workspace]
 nested = true
-members = ["crates/*"]
+members = ["examples/*"]
 resolver = "2"
 
 [workspace.dependencies]

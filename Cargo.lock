@@ -437,23 +437,23 @@ name = "traits-drop"
 version = "0.1.0"
 
 [[package]]
+name = "traits-impl-trait"
+version = "0.1.0"
+
+[[package]]
 name = "traits-intro"
 version = "0.1.0"
 
 [[package]]
+name = "traits-iterators"
+version = "0.1.0"
+
+[[package]]
+name = "traits-operator-overloading"
+version = "0.1.0"
+
+[[package]]
 name = "traits-returning-traits-with-dyn"
-version = "0.1.0"
-
-[[package]]
-name = "traits_impl_trait"
-version = "0.1.0"
-
-[[package]]
-name = "traits_iterators"
-version = "0.1.0"
-
-[[package]]
-name = "traits_operator_overloading"
 version = "0.1.0"
 
 [[package]]

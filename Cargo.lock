@@ -163,6 +163,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "csv-read-from-stdin"
+version = "0.1.0"
+dependencies = [
+ "csv",
+]
+
+[[package]]
 name = "defaults-get_or_insert"
 version = "0.1.0"
 

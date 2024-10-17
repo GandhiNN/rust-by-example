@@ -1,7 +1,6 @@
 [package]
-name = "threadpool_pattern"
+name = "traits-returning-traits-with-dyn"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-fstrings = "0.2.3"

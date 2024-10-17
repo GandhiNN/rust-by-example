@@ -1,5 +1,5 @@
 [package]
-name = "generics_functions"
+name = "result-handler"
 version = "0.1.0"
 edition = "2021"
 

@@ -179,7 +179,7 @@ name = "defaults-or_else"
 version = "0.1.0"
 
 [[package]]
-name = "download_async"
+name = "download-async"
 version = "0.1.0"
 
 [[package]]
@@ -213,15 +213,15 @@ name = "generics-functions"
 version = "0.1.0"
 
 [[package]]
-name = "generics_implementation"
+name = "generics-implementation"
 version = "0.1.0"
 
 [[package]]
-name = "generics_intro"
+name = "generics-intro"
 version = "0.1.0"
 
 [[package]]
-name = "generics_traits"
+name = "generics-traits"
 version = "0.1.0"
 
 [[package]]

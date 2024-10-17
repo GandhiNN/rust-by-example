@@ -1,5 +1,5 @@
 [package]
-name = "generics_intro"
+name = "generics-intro"
 version = "0.1.0"
 edition = "2021"
 

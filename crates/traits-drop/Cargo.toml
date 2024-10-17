@@ -1,5 +1,5 @@
 [package]
-name = "traits_iterators"
+name = "traits-drop"
 version = "0.1.0"
 edition = "2021"
 

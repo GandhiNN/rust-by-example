@@ -1,5 +1,5 @@
 [package]
-name = "scoping_rules_destructor"
+name = "scoping-rules-raii"
 version = "0.1.0"
 edition = "2021"
 

@@ -194,6 +194,10 @@ name = "early-returns"
 version = "0.1.0"
 
 [[package]]
+name = "fizz-buzz"
+version = "0.1.0"
+
+[[package]]
 name = "fstrings"
 version = "0.2.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"

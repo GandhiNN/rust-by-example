@@ -5,7 +5,9 @@ use std::num::ParseIntError;
 // Multiply if both values can be parsed from str, otherwise pass on the error.
 fn multiply(first_number_str: &str, second_number_str: &str) -> Result<i32, ParseIntError> {
     first_number_str.parse::<i32>().and_then(|first_number| {
-        second_number_str.parse::<i32>().map(|second_number| first_number * second_number)
+        second_number_str
+            .parse::<i32>()
+            .map(|second_number| first_number * second_number)
     })
 }
 

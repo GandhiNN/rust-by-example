@@ -1,9 +1,7 @@
 use std::num::ParseIntError;
 
 fn double_first(vec: Vec<&str>) -> Option<Result<i32, ParseIntError>> {
-    vec.first().map(|first| {
-        first.parse::<i32>().map(|n| 2 * n)
-    })
+    vec.first().map(|first| first.parse::<i32>().map(|n| 2 * n))
 }
 
 fn main() {

@@ -4,7 +4,7 @@ enum Fruit {
     Orange,
     Banana,
     Kiwi,
-    Lemon
+    Lemon,
 }
 
 fn main() {

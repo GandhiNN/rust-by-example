@@ -14,7 +14,6 @@ struct PhoneNumber {
 }
 
 impl Person {
-
     // Gets the area code of the phone number of the person's job, if it exists
     fn work_phone_area_code_v1(&self) -> Option<u8> {
         match self.job {
@@ -22,7 +21,7 @@ impl Person {
                 Some(x) => x.area_code,
                 _ => None,
             },
-            _ => None
+            _ => None,
         }
     }
 

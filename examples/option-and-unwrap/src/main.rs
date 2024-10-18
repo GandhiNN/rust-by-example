@@ -26,7 +26,7 @@ fn main() {
 
     let coffee = Some("coffee");
     let nothing = None;
-    
+
     drink(coffee);
     drink(nothing);
 }

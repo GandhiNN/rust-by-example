@@ -6,7 +6,9 @@ type AliasedResult<T> = Result<T, ParseIntError>;
 // Use the above alias to refer to our specific `Result` type
 fn multiply(first_number_str: &str, second_number_str: &str) -> AliasedResult<i32> {
     first_number_str.parse::<i32>().and_then(|first_number| {
-        second_number_str.parse::<i32>().map(|second_number| first_number * second_number)
+        second_number_str
+            .parse::<i32>()
+            .map(|second_number| first_number * second_number)
     })
 }
 

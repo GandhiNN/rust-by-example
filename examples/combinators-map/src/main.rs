@@ -44,7 +44,7 @@ fn cook(chopped: Option<Chopped>) -> Option<Cooked> {
 fn process(food: Option<Food>) -> Option<Cooked> {
     food.map(|f| Peeled(f))
         .map(|Peeled(f)| Chopped(f))
-        .map(|Chopped(f) | Cooked(f))
+        .map(|Chopped(f)| Cooked(f))
 }
 
 /// Check whether there's food or not

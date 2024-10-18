@@ -1,4 +1,4 @@
-use clap::{Command, Arg, ArgGroup};
+use clap::{Arg, ArgGroup, Command};
 
 fn main() {
     // Build the CLI by defining the configuration using the builder pattern
@@ -11,24 +11,14 @@ fn main() {
                 .long("number")
                 .num_args(1)
                 .value_parser(clap::value_parser!(i32))
-                .required(true)
+                .required(true),
         )
-        .arg(
-            Arg::new("square")
-                .short('s')
-                .long("square")
-                .num_args(0)
-        )
-        .arg(
-            Arg::new("cube")
-                .short('c')
-                .long("cube")
-                .num_args(0)
-        )
+        .arg(Arg::new("square").short('s').long("square").num_args(0))
+        .arg(Arg::new("cube").short('c').long("cube").num_args(0))
         .group(
             ArgGroup::new("operation")
                 .args(["square", "cube"])
-                .required(true)
+                .required(true),
         );
 
     // Runtime argument parsing

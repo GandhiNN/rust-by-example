@@ -1,4 +1,4 @@
-use std::{io, error::Error};
+use std::{error::Error, io};
 
 fn main() -> Result<(), Box<dyn Error>> {
     // Create a CSV parser that reads data from stdin

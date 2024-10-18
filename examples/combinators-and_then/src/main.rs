@@ -4,7 +4,7 @@
 enum Food {
     CordonBleu,
     Steak,
-    Sushi
+    Sushi,
 }
 
 #[derive(Debug)]
@@ -12,7 +12,7 @@ enum Food {
 enum Day {
     Monday,
     Tuesday,
-    Wednesday
+    Wednesday,
 }
 
 // no ingredients for Sushi
@@ -65,4 +65,3 @@ fn main() {
     eat(steak, Day::Tuesday);
     eat(sushi, Day::Wednesday);
 }
-

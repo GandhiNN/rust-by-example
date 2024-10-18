@@ -4,7 +4,7 @@ enum Fruit {
     Orange,
     Banana,
     Kiwi,
-    Lemon
+    Lemon,
 }
 
 fn main() {
@@ -13,8 +13,7 @@ fn main() {
         println!("Providing lemon as fallback");
         Fruit::Lemon
     };
-    let first_available_fruit = my_fruit
-        .get_or_insert_with(get_lemon_as_fallback);
+    let first_available_fruit = my_fruit.get_or_insert_with(get_lemon_as_fallback);
     println!("first_available_fruit is: {:?}", first_available_fruit);
     println!("my_fruit is: {:?}", my_fruit);
 

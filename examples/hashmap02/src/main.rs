@@ -2,13 +2,13 @@ use std::collections::HashMap;
 
 // Eq requires that we derive PartialEq on the type.
 #[derive(Debug, PartialEq, Eq, Hash)]
-struct Account<'a>{
+struct Account<'a> {
     username: &'a str,
     password: &'a str,
 }
 
 #[derive(Debug)]
-struct AccountInfo<'a>{
+struct AccountInfo<'a> {
     name: &'a str,
     email: &'a str,
 }
@@ -20,17 +20,14 @@ fn try_logon<'a>(accounts: &Accounts<'a>, username: &'a str, password: &'a str) 
     println!("Password: {}", password);
     println!("Attemptint logon...");
 
-    let logon = Account {
-        username,
-        password,
-    };
+    let logon = Account { username, password };
 
     match accounts.get(&logon) {
         Some(account_info) => {
             println!("Successful logon!");
             println!("Name: {}", account_info.name);
             println!("Email: {}", account_info.email);
-        },
+        }
         _ => println!("Login failed!"),
     }
 }

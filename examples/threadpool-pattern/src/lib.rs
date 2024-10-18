@@ -26,7 +26,7 @@ impl ThreadPool {
     pub fn new(num_threads: usize) -> ThreadPool {
         let mut workers = Vec::with_capacity(num_threads);
         let queue = Arc::new(Mutex::new(Vec::<WebRequest>::new()));
-    
+
         for i in 0..num_threads {
             let number = f!("Request {i}");
             let queue_clone = Arc::clone(&queue);
@@ -56,5 +56,3 @@ impl ThreadPool {
         }
     }
 }
-
-

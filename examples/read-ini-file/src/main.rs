@@ -8,13 +8,13 @@ fn main() -> Result<(), Box<dyn Error>> {
     let configmap = config.load("config.ini")?;
     for k in configmap.keys() {
         println!("{}", k);
-    };
+    }
 
     // Test: Load AWS configuration file
     let awsconfigmap = config.load("/home/ngandhi/.aws/config")?;
     for k in awsconfigmap.keys() {
         println!("{}", k);
-    };
+    }
 
     Ok(())
 }

@@ -5,7 +5,7 @@ mod checked {
         NonPositiveLogarithm,
         NegativeSquareRoot,
     }
-    
+
     type MathResult = Result<f64, MathError>;
 
     fn div(x: f64, y: f64) -> MathResult {
@@ -17,7 +17,7 @@ mod checked {
     }
 
     fn sqrt(x: f64) -> MathResult {
-        if x < 0.0 { 
+        if x < 0.0 {
             Err(MathError::NegativeSquareRoot)
         } else {
             Ok(x.sqrt())

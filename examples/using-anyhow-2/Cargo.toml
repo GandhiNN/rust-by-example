@@ -1,0 +1,7 @@
+[package]
+name = "using-anyhow-2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = { version = "1.0.90", workspace = true }

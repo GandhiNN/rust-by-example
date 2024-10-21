@@ -1,7 +1,6 @@
 [package]
-name = "read-ini-file"
+name = "math-sum-01"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-configparser = "3.0.2"

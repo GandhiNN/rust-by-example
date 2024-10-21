@@ -62,6 +62,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "37bf3594c4c988a53154954629820791dde498571819ae4ca50ca811e060cc95"
 
 [[package]]
+name = "borrowed-owned-types"
+version = "0.1.0"
+
+[[package]]
 name = "bounded-channels"
 version = "0.1.0"
 
@@ -288,6 +292,10 @@ name = "map-for-result-2"
 version = "0.1.0"
 
 [[package]]
+name = "math-sum-01"
+version = "0.1.0"
+
+[[package]]
 name = "memchr"
 version = "2.7.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -419,6 +427,10 @@ name = "strsim"
 version = "0.11.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7da8b5736845d9f2fcb837ea5d9e2628564b3b043a70948a3f0b778838c5fb4f"
+
+[[package]]
+name = "struct-lifetime"
+version = "0.1.0"
 
 [[package]]
 name = "syn"

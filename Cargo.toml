@@ -1,5 +1,4 @@
 [workspace]
-nested = true
 members = ["examples/*"]
 resolver = "2"
 

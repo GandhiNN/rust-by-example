@@ -410,6 +410,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "state-modelling-using-enum-and-structs"
+version = "0.1.0"
+
+[[package]]
 name = "string-functions"
 version = "0.1.0"
 

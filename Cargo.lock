@@ -173,6 +173,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "csv-read-from-files"
+version = "0.1.0"
+dependencies = [
+ "csv",
+]
+
+[[package]]
 name = "csv-read-from-stdin"
 version = "0.1.0"
 dependencies = [

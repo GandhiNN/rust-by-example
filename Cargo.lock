@@ -306,6 +306,10 @@ name = "other-uses-of-question-marks"
 version = "0.1.0"
 
 [[package]]
+name = "ownership-borrow-checker"
+version = "0.1.0"
+
+[[package]]
 name = "plain-scoped-threads"
 version = "0.1.0"
 
@@ -389,6 +393,10 @@ dependencies = [
  "quote",
  "syn 2.0.79",
 ]
+
+[[package]]
+name = "string-functions"
+version = "0.1.0"
 
 [[package]]
 name = "string-rule-1"

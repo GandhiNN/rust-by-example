@@ -497,6 +497,10 @@ name = "tokio-basics"
 version = "0.1.0"
 
 [[package]]
+name = "trait-simple-implementations"
+version = "0.1.0"
+
+[[package]]
 name = "traits-derive"
 version = "0.1.0"
 
